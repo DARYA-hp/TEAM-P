@@ -10,11 +10,11 @@ function About() {
               <p className="text-[36px]  font-[700]">About Grandma’s Bakery</p>
               <img src="/Line 4.png" alt="" />
             </div>
-            <p className="pr-[160px] text-[#3d3d3d] text-[18px] pb-4">
+            <p className="pr-[160px] text-[#3d3d3d] text-[18px] pb-4 leading-[1.6]">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.
               ut labore et dolore magna aliqua.
             </p>
-            <button className="bg-black text-white  text-[14px] px-4 py-1 rounded-sm w-fit hover:bg-gray-800 transition-all">
+            <button className="bg-black text-white  text-[18px] px-4 py-2 rounded-sm w-fit hover:bg-gray-800 transition-all">
               Read More</button>
           </div>
         </div>
