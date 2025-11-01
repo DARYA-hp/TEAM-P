@@ -15,7 +15,7 @@ function Header() {
                     </ul>
                 </div>
             </div>
-            <div className=" pt-16 px-[400px] flex items-center justify-center">
+            <div className=" pt-[70px] px-[400px] flex items-center justify-center">
                 <p className="text-[72px] font-[700] font-tangerine text-center leading-[1]">
                     Enjoy fresh items of our Grandma’s Reciepe
                 </p>

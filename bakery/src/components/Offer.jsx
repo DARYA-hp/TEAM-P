@@ -19,7 +19,7 @@ function Offer() {
                     {OffersObj.map((item, index) => (
                         <>
                             <div key={index}>
-                                <img src={item.img} alt={item.img} className=" w-[115px] h-[145px] rounded-[60px]  " />
+                                <img src={item.img} alt={item.img} className=" w-[125px] h-[155px] rounded-[60px] object-cover " />
                                 <p className=" pt-4">{item.title}</p>
                             </div>
                         </>
@@ -28,17 +28,17 @@ function Offer() {
 
                 <div className="absolute inset-0 w-full h-full">
                     <img src="/Croissant.png" alt=""
-                        className="w-[65px] h-[65px] absolute top-2 left-[280px] rotate-[10deg] transition-transform duration-500 hover:scale-110"/>
+                        className="w-[90px] h-[85px] absolute top-12 left-[250px] rotate-[10deg] transition-transform duration-500 hover:scale-110"/>
                     <img src="/Bretzel.png"  alt=""
-                        className="w-[55px] h-[55px] absolute top-[120px] right-[200px] rotate-[-5deg] transition-transform duration-500 hover:rotate-[10deg]" />
+                        className="w-[80px] h-[80px] absolute top-[180px] right-[160px] rotate-[-5deg] transition-transform duration-500 hover:rotate-[10deg]" />
                     <img src="/Whip.png" alt=""
-                        className="w-[55px] h-[55px] absolute bottom-[0px] left-[120px] rotate-[deg] transition-transform duration-500 hover:scale-125"/>
+                        className="w-[80] h-[80] absolute bottom-[10px] left-[90px] rotate-[deg] transition-transform duration-500 hover:scale-125"/>
                     <img src="/Baguette.png" alt=""
-                        className="w-[55px] h-[50px] absolute bottom-[10px] right-[150px] rotate-[5deg] transition-transform duration-500 hover:-rotate-[10deg]"/>
+                        className="w-[80] h-[70px] absolute bottom-[10px] right-[100px] rotate-[5deg] transition-transform duration-500 hover:-rotate-[10deg]"/>
                     <img src="/Cupcake.png" alt=""
-                        className="w-[55px] h-[55px] absolute top-[150px] left-[110px] rotate-[0deg] transition-transform duration-500 hover:translate-y-[-10px]"/>
+                        className="w-[80] h-[80] absolute top-[150px] left-[70px] rotate-[0deg] transition-transform duration-500 hover:translate-y-[-10px]"/>
                     <img src="/Toast.png" alt=""
-                        className="w-[55px] h-[55px] absolute top-10 right-[330px] rotate-[10deg] transition-transform duration-500 hover:translate-x-[10px]"/>
+                        className="w-[80] h-[80] absolute top-16 right-[310px] rotate-[10deg] transition-transform duration-500 hover:translate-x-[10px]"/>
                 </div>
 
 
