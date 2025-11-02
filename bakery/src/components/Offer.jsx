@@ -30,7 +30,7 @@ function Offer() {
                     <img src="/Croissant.png" alt=""
                         className="w-[90px] h-[85px] absolute top-16 left-[250px] rotate-[10deg] transition-transform duration-500 hover:scale-110"/>
                     <img src="/Bretzel.png"  alt=""
-                        className="w-[80px] h-[80px] absolute top-[180px] right-[160px] rotate-[-5deg] transition-transform duration-500 hover:rotate-[10deg]" />
+                        className="w-[80px] h-[80px] absolute top-[180px] right-[140px] rotate-[-5deg] transition-transform duration-500 hover:rotate-[10deg]" />
                     <img src="/Whip.png" alt=""
                         className="w-[80] h-[80] absolute bottom-[10px] left-[90px] rotate-[deg] transition-transform duration-500 hover:scale-125"/>
                     <img src="/Baguette.png" alt=""

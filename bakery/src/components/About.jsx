@@ -14,8 +14,15 @@ function About() {
               Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.
               ut labore et dolore magna aliqua.
             </p>
+
             <button className="bg-black text-white  text-[18px] px-4 py-2 rounded-sm w-fit hover:bg-gray-800 transition-all">
               Read More</button>
+
+              {/* <img src="/Glove.svg" alt="" className=" w-[140px] h-[140px] ml-[400px] mb-10" /> */}
+
+
+
+
           </div>
         </div>
       </div>

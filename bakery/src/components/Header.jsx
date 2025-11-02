@@ -45,7 +45,10 @@ function Header() {
             <div className="">
                 <div className=" text-center pt-[35px]">
                     <button className=" bg-black px-8 py-3 text-white text-xl">See Menu</button>
-                    <p className=" text-[#7E7E7E] py-5">* 10% off on first order</p>
+                    <div className="">
+                          <p className=" text-[#7E7E7E] pt-5">* 10% off on first order</p>
+                          <div className=" w-2 h-[2px] bg-[#FFDB1E] mb-  ml-[640px]"></div>
+                    </div>
                 </div>
                 <div>
                     <img src="public/13.png" alt="" className="rotate-15 absolute pt-[65px] " />
